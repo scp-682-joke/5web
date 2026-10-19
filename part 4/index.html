@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>Part 4 — Interactive To-Do List</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="../style.css">
@@ -16,8 +16,14 @@
                 <li><a href="index.html" aria-current="page">Part 4</a></li>
             </ul>
         </nav>
-        <main class="content">
-
+        <main class="content todo-page">
+            <h2>Part 4. Interactive To-Do List</h2>
+            <h3>Task 8. Build a To-Do App</h3>
+            <label for="task-input">New task:</label>
+            <input id="task-input" type="text">
+            <button id="add-task" type="button" class="button">Add Task</button>
+            <p>Check a task to mark it as completed. Tasks reset when you reload the page.</p>
+            <ul id="task-list"></ul>
         </main>
         <footer class="site-footer"><p>Zhibek Slambek | SE-2530</p></footer>
         <script src="script.js"></script>
