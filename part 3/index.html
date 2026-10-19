@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>Part 3 — Events</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="../style.css">
@@ -16,8 +16,31 @@
                 <li><a href="../part 4/index.html">Part 4</a></li>
             </ul>
         </nav>
-        <main class="content">
+        <main class="content events-page">
+            <h2>Part 3. Events</h2>
 
+            <h3>Task 5. Mouse Events</h3>
+            <div id="mouse-box">Move your mouse over this box.</div>
+
+            <h3>Task 6. Keyboard Events</h3>
+            <label for="keyboard-input">Type something:</label>
+            <input id="keyboard-input" type="text">
+            <p>Current value: <span id="current-value"></span></p>
+
+            <h3>Task 7. Calculator</h3>
+            <label for="first-number">First number:</label>
+            <input id="first-number" type="number" step="any">
+            <label for="operation">Operation:</label>
+            <select id="operation">
+                <option value="+">+</option>
+                <option value="-">−</option>
+                <option value="*">×</option>
+                <option value="/">÷</option>
+            </select>
+            <label for="second-number">Second number:</label>
+            <input id="second-number" type="number" step="any">
+            <button id="calculate" type="button" class="button">Calculate</button>
+            <p id="calculation-result" aria-live="polite">Result:</p>
         </main>
         <footer class="site-footer"><p>Zhibek Slambek | SE-2530</p></footer>
         <script src="script.js"></script>
