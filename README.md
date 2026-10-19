@@ -22,4 +22,4 @@ README.md
 
 ## How to run
 
-1. Follow this link:
+1. Follow this link: https://scp-682-joke.github.io/5web/
